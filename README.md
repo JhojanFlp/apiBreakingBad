@@ -1,5 +1,9 @@
 ## Install packages and run project
 
+Download project (clone) and access the project folder, in this case:
+
+### `cd apiBreakingBad`
+
 In the project directory, install dependencies, packages, ... :
 
 ### `npm install`

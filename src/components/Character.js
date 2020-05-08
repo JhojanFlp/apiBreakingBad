@@ -24,7 +24,7 @@ const Character = ({char}) => {
       <div className="card h-100">
         <img src={img} alt={name} className="card-img-top imgcd"/>
         <div className="card-body text-center">
-          <p className="card-text font-weight-bold">{name} ({nickname})</p>
+          <p className="card-text font-weight-bold">{name}<br /> ({nickname})</p>
 
           {/* Modal Button */}
           <Button variant="primary" onClick={handleShow}>

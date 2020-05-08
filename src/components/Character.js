@@ -21,8 +21,8 @@ const Character = ({char}) => {
 
   return (
     <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-      <div className="card">
-        <img src={img} alt='image' className="card-img-top"/>
+      <div className="card h-100">
+        <img src={img} alt={name} className="card-img-top imgcd"/>
         <div className="card-body text-center">
           <p className="card-text font-weight-bold">{name} ({nickname})</p>
 
@@ -39,7 +39,7 @@ const Character = ({char}) => {
             <Modal.Body>
               <div className="row">
                 <div className="col">
-                <img src={img} alt='image' className="w-100"/>
+                <img src={img} alt={name} className="w-100"/>
                 </div>
                 <div className="col">
                   <p><span className="font-weight-bold">Nickname:</span> {nickname}</p>

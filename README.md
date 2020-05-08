@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Install packages and run project
+
+Download project (clone) and access the project folder, in this case:
+
+### `cd apiBreakingBad`
+
+In the project directory, install dependencies, packages, ... :
+
+### `npm install`
+
+Then, run project with the command:
+
+### `npm start`
+
+And open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+Project in Netlify: [App Link](https://serene-mestorf-5f0dd8.netlify.app/)
+
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
